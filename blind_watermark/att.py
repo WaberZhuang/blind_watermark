@@ -136,7 +136,7 @@ def cut_att_width(input_filename=None, input_img=None, output_file_name=None, ra
 
 
 def cut_att(input_filename=None, output_file_name=None, input_img=None, loc=((0.3, 0.1), (0.7, 0.9)), resize=0.6):
-    warnings.warn('will be deprecated in the future, use att.cut_att2 instead')
+    # warnings.warn('will be deprecated in the future, use att.cut_att2 instead')
     # 截屏攻击 = 裁剪攻击 + 缩放攻击 + 知道攻击参数（按照参数还原）
     # 裁剪攻击：其它部分都补0
     if input_filename:
